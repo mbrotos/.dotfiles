@@ -1,0 +1,28 @@
+# Ghostty Config
+# Minimal, keyboard-driven setup
+
+# -----------------------
+# Links
+# -----------------------
+# Enable clickable URLs
+link-url = true
+
+# Cmd+click to open links (prevents accidental clicks)
+link-url-modifier = cmd
+
+# -----------------------
+# Font
+# -----------------------
+# font-family = JetBrains Mono
+# font-size = 14
+
+# -----------------------
+# Window
+# -----------------------
+# window-padding-x = 10
+# window-padding-y = 10
+
+# -----------------------
+# Theme
+# -----------------------
+# theme = dark

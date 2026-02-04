@@ -63,6 +63,13 @@ main() {
         backup_and_link "$DOTFILES_DIR/tmux/.tmux.conf" "$HOME/.tmux.conf"
     fi
 
+    # ghostty
+    if [[ -f "$DOTFILES_DIR/ghostty/config" ]]; then
+        info "Setting up ghostty..."
+        mkdir -p "$HOME/.config/ghostty"
+        backup_and_link "$DOTFILES_DIR/ghostty/config" "$HOME/.config/ghostty/config"
+    fi
+
     # Add more configs here as you expand your dotfiles:
     #
     # nvim

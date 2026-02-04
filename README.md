@@ -14,6 +14,7 @@ git clone git@github.com:mbrotos/.dotfiles.git ~/.dotfiles
 | Tool | Config |
 |------|--------|
 | tmux | Vim-style navigation, `Ctrl+a` prefix, sane defaults |
+| ghostty | Clickable URLs with Cmd+click |
 
 ## Tmux Cheatsheet
 
